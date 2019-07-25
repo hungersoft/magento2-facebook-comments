@@ -1,0 +1,17 @@
+<?php
+/**
+ * @var $block \HS\FacebookComments\Block\Comment
+ */
+?>
+<?php $helper = $this->helper('HS\FacebookComments\Helper\Data'); ?>
+<?php if ($helper->isEnabled()): ?>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="<?php echo $block->getSDKUrl() ?>"></script>
+	<div class="fb-comments"
+        data-href="<?php echo $block->getCurrentUrl() ?>"
+        data-order-by="<?php echo $helper->getOrderBy() ?: 'social' ?>"
+        data-colorscheme="<?php echo $helper->getColorscheme() ?: 'light' ?>"
+        data-width="<?php echo $helper->getWidth() ?: 550 ?>"
+        data-numposts="<?php echo $helper->getNumPosts() ?: 5 ?>">
+    </div>
+<?php endif; ?>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <hs_facebook_comment>
+            <general>
+                <enabled>0</enabled>
+                <title>Facebook Comments</title>
+                <num_posts>5</num_posts>
+                <order_by>social</order_by>
+                <colorscheme>light</colorscheme>
+                <width>550</width>
+            </general>
+        </hs_facebook_comment>
+    </default>
+</config>

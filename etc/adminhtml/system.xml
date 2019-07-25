@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="hs_facebook_comment" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+            <label>Facebook comments</label>
+            <tab>hungersoft</tab>
+            <resource>HS_FacebookComments::config_hs_facebookcomments</resource>
+            <group id="general" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+                <label>General</label>
+                <field id="enabled" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+                    <label>Enabled</label>
+                    <comment/>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="title" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+                    <label>Title</label>
+                    <comment/>
+                </field>
+                <field id="num_posts" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+                    <label>Comments per page</label>
+                    <comment/>
+                </field>
+                <field id="order_by" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+                    <label>Order by</label>
+                    <comment/>
+                    <source_model>HS\FacebookComments\Model\Config\Source\OrderBy</source_model>
+                </field>
+                <field id="colorscheme" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+                    <label>Color Scheme</label>
+                    <comment/>
+                    <source_model>HS\FacebookComments\Model\Config\Source\Colorscheme</source_model>
+                </field>
+                <field id="width" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+                    <label>Width</label>
+                    <comment/>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
