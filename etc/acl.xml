@@ -6,7 +6,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="HS_FacebookComments::config_hs_facebookcomments" title="hs_facebook_comment"/>
+                            <resource id="HS_FacebookComments::config_hs_facebookcomments" title="Facebook comments"/>
                         </resource>
                     </resource>
                 </resource>
