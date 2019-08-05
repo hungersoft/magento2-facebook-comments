@@ -3,7 +3,7 @@
 # Facebook Comments [M2]
 **hs/module-facebook-comments**
 
-Hungersoft's [Facebook Comments](https://www.hungersoft.com/p/magento2-product-facebook-comments) extension allows you to show Facebook comment box on your product page.
+Hungersoft's [Facebook Comments](https://www.hungersoft.com/p/magento2-facebook-comments) extension allows you to show Facebook comment box on your product page.
 
 ## Installation
 
